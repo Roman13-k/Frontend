@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.body {
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header__container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:8vh ;
+    background-color: black;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 25vw;
+}
+
+.nav__item {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    transform: scaleX(0.9);
+}
+
+.header__login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 15vw;
+}
+
+.login__item {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transform: scaleX(0.9);
+}
+
+.header__button {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.main {
+    background-image: url(Layer.png);
+    background-size: cover;
+}
+
+.intro__container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+}
+
+.intro__img {
+    display: flex;
+    margin: 10vh 0px;
+    padding-right: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.intro__content p {
+    transform: scaleX(0.9);
+}
+
+.content__fast, .content__cool, .content__expens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.content__fast img,.content__cool img,.content__expens img {
+    max-width: 30px; 
+    max-height: 30px; 
+}
+
+.news-photos__container {
+    display: flex;
+    height:50vh ;
+    width: auto;
+    margin: 30px 200px;
+    background-color: whitesmoke;
+    background-position: center;
+    justify-content: space-around;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photos__title{
+    padding-right:180px ;
+}
+
+.photos__img {
+    padding-top: 40px;
+}
+
+.photos__button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-top: 5px;
+    padding:15px 50px;
+}
+
+.news__button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding:15px 50px;
+    background-color: black;
+    margin-top: 13px;
+}
+
+.photos__button_back {
+    margin-right: 30px;
+    background-color: black;
+}
+
+.photos__button_forward {
+    margin-left: 30px;
+    background-color: black;
+}
+
+.contacts__container {
+    display: flex;
+    height:50vh ;
+    width: auto;
+    margin: 30px 200px;
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+    background-position: center;
+    justify-content: space-around;
+}
+
+.contacts__cont-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__button {
+    display: flex;
+    border: none;
+    cursor: pointer;
+    gap: 10px;
+    justify-content: center;
+}
+
+.contacts__button_way, .contacts__button_connection {
+    background-color: black;
+    margin-top: 5px;
+    color: white;
+    width: 210px;
+    padding: 15px;
+}
+
+.contacts__record {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form__date, .form__time, .form__name, .form__number { 
+    flex: 1 1 calc(50% - 10px); 
+}
+
+.contacts__button_send {
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    width: 400px;
+    padding: 15px;
+}
+
+.footer__container {
+    display: flex;
+    height: 22vh;
+    background-color: rgb(63, 63, 63);
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__button {
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
